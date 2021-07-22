@@ -1,0 +1,6 @@
+@attribute species {buffalo,cow}
+@attribute exists {0,1}
+@attribute sees {0,1}
+@attribute hears {0,1}
+@attribute thinks {0,1}
+@prediction species = cow
