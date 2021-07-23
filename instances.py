@@ -31,14 +31,6 @@ def parse_tsv_quant(file):
 
     res = grid_lib.discretize(norm_lines, 30)
 
-    # for i in range(len(lines)):
-        
-    #     if lines[i][0] == 'B':
-    #         species = "boeuf"
-    #     else:
-    #         species = "auroch"
-    #     res[i].append(species)
-
     print(res)
     return res
 
